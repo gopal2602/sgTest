@@ -30,6 +30,7 @@ public class DriverScript {
 	public void loadClasses()
 	{
 		try {
+			System.out.println("Loading the classes in the driver");
 			appInd = new AppIndependentMethods();
 			appDep = new AppDependentMethods();
 			userMethods = new UserModuleMethods();
