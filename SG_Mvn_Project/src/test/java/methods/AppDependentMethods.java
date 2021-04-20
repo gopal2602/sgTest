@@ -18,7 +18,6 @@ public class AppDependentMethods extends DriverScript implements ObjectLocators{
 	public boolean navigateURL(WebDriver oBrowser, String URL, ExtentTest test)
 	{
 		try {
-			System.out.println("URL will be navigated");
 			oBrowser.navigate().to(URL);
 			appInd.waitFor(oBrowser, obj_LoginHeader_Label, "Text", "Please identify yourself", 5);
 			
