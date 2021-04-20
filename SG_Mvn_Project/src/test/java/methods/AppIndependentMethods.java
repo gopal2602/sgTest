@@ -29,7 +29,6 @@ public class AppIndependentMethods extends DriverScript{
 	 ***************************************************/
 	public String getDateTime(String strFormat)
 	{
-		System.out.println("Time stamp");
 		Date dt = null;
 		SimpleDateFormat sdf = null;
 		try {
